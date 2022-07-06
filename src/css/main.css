@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap");
 /*------------------------------\
     Normalize CSS 
 \------------------------------*/
@@ -89,4 +90,53 @@ people that prefer not to see them */
     scroll-behavior: auto !important;
   }
 }
+
+/*------------------------------\
+        BASE - Typography
+\------------------------------*/
+.product-card {
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+}
+
+.product-type {
+  font-size: 0.75rem;
+  letter-spacing: 0.3125rem;
+  line-height: 0.9375rem;
+  text-transform: uppercase;
+}
+
+.product-name {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2rem;
+}
+
+.product-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4375rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2rem;
+}
+
+.original-price {
+  font-size: 0.8125rem;
+  line-height: 1.4375rem;
+  text-decoration: line-through;
+}
+
+.add-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+/*------------------------------\
+            Testing
+\------------------------------*/
 /*# sourceMappingURL=main.css.map */
