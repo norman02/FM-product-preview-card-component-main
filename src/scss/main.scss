@@ -9,3 +9,23 @@
             Testing
 \------------------------------*/
 
+$card-bg-clr: white;
+$main-bg-clr: hsla(30, 38%, 92%, 1);
+
+.app {
+    align-items: center;
+    background-color: $main-bg-clr;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.product-card {
+    background-color: $card-bg-clr;
+    width: rem(343);
+}
+
+.content {
+    padding: rem(24);
+}
