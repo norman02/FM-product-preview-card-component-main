@@ -1,0 +1,46 @@
+
+/*------------------------------\
+        BASE - Typography
+\------------------------------*/
+
+.product-card {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+  }
+  
+  .product-type {
+    font-size: rem(12);
+    letter-spacing: rem(5);
+    line-height: rem(15);
+    text-transform: uppercase;
+  }
+  
+  .product-name {
+    font-size: rem(32);
+    font-weight: 800;
+    line-height: rem(32);
+  }
+  
+  .product-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: rem(14);
+    line-height: rem(23);
+  }
+  
+  .price {
+    font-size: rem(32);
+    font-weight: 800;
+    line-height: rem(32);
+  }
+  
+  .original-price {
+    font-size: rem(13);
+    line-height: rem(23);
+    text-decoration: line-through;
+  }
+  
+  .add-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: rem(14);
+    line-height: rem(18);
+  }

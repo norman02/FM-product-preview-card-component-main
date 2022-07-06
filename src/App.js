@@ -4,17 +4,17 @@ import "./css/main.css";
 
 export default function App() {
   return (
-    <main>
+    <div className="product-card">
       <img src={mobileImage} alt="Chanel Perfume"></img>
-      <p>Perfume</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p>
+      <p className="product-type">Perfume</p>
+      <h1 className="product-name">Gabrielle Essence Eau De Parfum</h1>
+      <p className="product-description">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <p>$149.99</p>
-      <p>$169.99</p>
-      <button>Add to Cart</button>
-    </main>
+      <p className="price">$149.99</p>
+      <p className="original-price">$169.99</p>
+      <button className="add-button">Add to Cart</button>
+    </div>
   );
 }
