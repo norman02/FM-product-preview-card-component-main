@@ -1,6 +1,5 @@
 import React from "react";
 import mobileImage from "./images/image-product-mobile.jpg";
-import "./css/main.css";
 
 export default function App() {
   return (
