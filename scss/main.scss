@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+@function rem($pix) {
+  @return ($pix/16 * 1rem);
+}
+
+%primary-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+%secondary-font {
+  font-family: "Fraunces", serif;
+}
+
+p,
+button {
+  @extend %primary-font;
+}
+
+h1, .price {
+  @extend %secondary-font;
+}
+
+main {
+  background-color: #f2eae2;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  width: rem(343);
+}
