@@ -12,22 +12,55 @@
   font-family: "Fraunces", serif;
 }
 
+.category {
+  letter-spacing: 5px;
+}
+
 p,
 button {
   @extend %primary-font;
 }
 
-h1, .price {
+h1 {
+  color: #1c232b;
+}
+
+h1,
+.price {
   @extend %secondary-font;
+  font-size: rem(32);
+}
+
+.price {
+  color: #3d8168;
+}
+
+.ogriginal-price {
+  text-decoration: line-through;
+  margin-top: rem(10);
+  margin-left: rem(24);
 }
 
 main {
   background-color: #f2eae2;
+  color: #6c7289;
   display: flex;
   height: 100vh;
   width: 100vw;
 }
 
 .card {
+  background-color: #ffffff;
+  border-radius: 10px;
   width: rem(343);
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #3d8168;
+}
+
+.test {
+  border: 2px solid red;
 }
